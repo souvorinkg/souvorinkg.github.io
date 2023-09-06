@@ -1,10 +1,10 @@
-title: Jekyll Serial Programmer
+title: Kolya Souvorin
 markdown: kramdown
 
 # for atom feed
 author:
-  name: Sharad Raj Singh Maurya
-  email: dev_sharad@outlook.com
+  name: Kolya Souvorin
+  email: souvorinkg@hendrix.edu
 
 plugins:
   - jemoji
