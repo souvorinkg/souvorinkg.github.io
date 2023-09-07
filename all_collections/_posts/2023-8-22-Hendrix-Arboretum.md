@@ -9,7 +9,7 @@ categories: [".NET", "Community", "Disco Tray Studios"]
 
 This project is my first web design project for a client. I worked in a group of four other students with our client, Holly Payne of Porch Swings Farms. Holly Payne does deliveries of eggs and pork products on a weekly basis. She needed a way to track when clients were to get deliveries, how much product to make every week, what each client's bill would be, and what order to deliver products in. 
 
-![a picture of the website](HendrixArboretum.png)
+![a picture of the website](/screenshots/HendrixArboretum.png)
 
 We decided to design a website where our client was the only user. Our client didn't have database experience but used Excel. The website would take in a .CSV file of clients, addresses, delivery times, products requested, and contact information. The site would use that data to pobulate a database with customers as the key, with contact, address, as well as tables for orders and deliveries. The would be searchable through the GUI, and would return what deliveries where due. Additionally, it would use MapQuest API to make the best route given the deliveries needed. 
 
