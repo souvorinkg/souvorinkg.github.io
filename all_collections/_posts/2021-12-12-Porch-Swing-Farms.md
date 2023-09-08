@@ -5,9 +5,9 @@ date: 2021-12-12 10:18:00
 categories: [.NET, Community]
 ---
 
-[Repository](https://github.com/scgaskins/PorchSwingFarms).
+.
 
-This project is my first web design project for a client. I worked in a group of four other students with our client, Holly Payne of Porch Swings Farms. Holly Payne does deliveries of eggs and pork products on a weekly basis. She needed a way to track when clients were to get deliveries, how much product to make every week, what each client's bill would be, and what order to deliver products in. 
+[Porch Swing Farms](https://github.com/scgaskins/PorchSwingFarms) is my first web design project for a client. I worked in a group of four other students with our client, Holly Payne of Porch Swings Farms. Holly Payne does deliveries of eggs and pork products on a weekly basis. She needed a way to track when clients were to get deliveries, how much product to make every week, what each client's bill would be, and what order to deliver products in. 
 
 ![a picture of the website](/screenshots/PSFHome.png)
 

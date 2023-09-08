@@ -5,14 +5,15 @@ date: 2023-08-22
 categories: [".NET", "Community", "Disco Tray Studios"]
 ---
 
-[The Hendrix Arboretum](https://arboretum.hendrix.edu/).
+.
 
-This project is my first web design project for a client. I worked in a group of four other students with our client, Holly Payne of Porch Swings Farms. Holly Payne does deliveries of eggs and pork products on a weekly basis. She needed a way to track when clients were to get deliveries, how much product to make every week, what each client's bill would be, and what order to deliver products in. 
+[The Hendrix Arboretum](https://arboretum.hendrix.edu/) is a project dating back to 1995 when the Hendrix biology department began cataloging the location and species of trees within the Hendrix Campus. Today, over 1,000 trees and 80 species have been cataloged. Each tree in the database has an image and species. Each species is mapped to a scientific name and names common to the Central Arkansas region. The census is growing to include all species common to Arkansas and neighboring states. 
+
+
+<img src="https://www.hendrix.edu/uploadedImages/Departments_and_Programs/Biology/Resources/Arboretum%20Guide%20Cover%20Page.jpg" alt="arboretum guide"/>
+
+The Hendrix Arboretum was initially built by the school's Biology Department for internal use. Now, a wide variety of Hendrix students, faculty, as well as scientists and enthusiasts from the greater Arkansas community, use the Arboretum. The website satisfies the esoteric user, by including GPS coordinates and taxonomical information about a wide variety of common and rare species in Arkansas, as well as being accessible to hobbyists, and is a successful example of scientific communication. Both groups maintain and grow the database of images. The purpose is a digital education resource and a time capsule for the entire Central Arkansas community. 
 
 ![a picture of the website](/screenshots/HendrixArboretum.png)
 
-We decided to design a website where our client was the only user. Our client didn't have database experience but used Excel. The website would take in a .CSV file of clients, addresses, delivery times, products requested, and contact information. The site would use that data to pobulate a database with customers as the key, with contact, address, as well as tables for orders and deliveries. The would be searchable through the GUI, and would return what deliveries where due. Additionally, it would use MapQuest API to make the best route given the deliveries needed. 
-
-The project greatly helped build my trouble shooting skills. Working with ASP.NET and Azure for the first time, the program frequently crashed and we were encouraged to solve these problems within our team. I learned how to comb through the docs and stackoverflow.com to find siilar issues and extrapolate what I was learning into new situations. Additionally, I felt that my communication skills helped our team, both in coordination with our client through solving problems efficiently within the group. 
-
-Our client ran an organic farm that served a local clientele of individual families. These types of systems boost food sovereignty, giving the community more control over where their food comes from. I actually started working on my client's farm as a part of this project! Working with raddishes, chickens, and pigs every Friday was an incredible way to end each work week, and left me refreshed going into the weekend. It also allows me to put ideas I have about sustainability into practice. 
+As a member of Disco Tray Studios, I have continued work on the Hendrix Arboretum website. Currently, the website is managed by Dr. Sutherland and has been successfully deployed in its first iteration. Now, we are working to make the website easier to edit, administer, and use. The goal is for our client, Dr. Sutherland, and future administrators, to be able to maintain and add to the website as a turnkey, not requiring any knowledge of the logic of the database and DOM. Not every client will come from a programming background, so making this project maintainable by novice users is an interesting challenge and an important aspect of accessibility.  
