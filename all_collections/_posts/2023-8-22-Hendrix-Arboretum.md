@@ -5,8 +5,6 @@ date: 2023-08-22
 categories: [".NET", "Community", "Disco Tray Studios"]
 ---
 
-.
-
 [The Hendrix Arboretum](https://arboretum.hendrix.edu/) is a project dating back to 1995 when the Hendrix biology department began cataloging the location and species of trees within the Hendrix Campus. Today, over 1,000 trees and 80 species have been cataloged. Each tree in the database has an image and species. Each species is mapped to a scientific name and names common to the Central Arkansas region. The census is growing to include all species common to Arkansas and neighboring states. 
 
 
