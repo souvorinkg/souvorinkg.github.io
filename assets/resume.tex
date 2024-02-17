@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \documentclass[]{deedy-resume-openfont}
+
+    \begin{document}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Profile
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Kolya}{Souvorin}{kgsouvorin@gmail.com | 770-401-0275 | Conway, AR | \textcolor{red}{souvorinkg.github.io}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Education
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\raggedright
+
+\runsubsection{Hendrix College}\descript{| BS Computer Science, Political Science}\hfill \location{Conway, AR | August 2019 - May 2024}\\
+GPA: 3.5\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Experience
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work Experience}
+\runsubsection{Disco Tray Studios}\descript{| Web Developer}\hfill \location{Conway, AR | August 2023 – Present}
+\begin{tightemize}
+	\item Collaborated with undergrads, taking projects to stable release
+	\item Worked with the client and product owner to determine objectives and priorities
+	\item Coordinated backlogs and issues with the team in weekly meetings
+\end{tightemize}
+\sectionsep
+\runsubsection{Teach for America}\descript{| Ignite Fellow}\hfill \location{New York City, NY | January 2022 – Present}
+\begin{tightemize}
+	\item Taught mathematics and english to students negatively impacted by COVID-19
+	\item Planned engaging lessons using modern virtual tools, leading to higher academic achievement
+	\item Managed classrooms through adaptive teaching strategies taking student\textquotesingle{}s unique needs into account
+\end{tightemize}
+\sectionsep
+\runsubsection{Food4Life}\descript{| Volunteer}\hfill \location{Atlanta, GA | March 2020 – January 2021}
+\begin{tightemize}
+	\item Delivered free, fresh, weekly groceries to people most affected by the pandemic
+	\item Organized in teams of eight to pack food, coordinate with suppliers, and plan routes
+	\item Met with local grocers, bakers, and farmers to source fresh food
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\raggedright
+\begin{tabular}{ l l }
+	\descript{Programming Languages} & {\location{Python, Java, HTML5, CSS3, JS ES6}}                             \\
+	\descript{Software}              & {\location{Git, MySQL, PostgreSQL, GIMP, Figma, Clockify, LAMP Stack}}     \\
+	\descript{Classes}               & {\location{Web Design, Database Management, AI, OS, Software Engineering}} \\
+	\descript{Natural Languages}     & {\location{Mandarin TOCFL 1, French CEFL A1}}                              \\
+\end{tabular}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Projects
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Projects}
+\raggedright
+
+\runsubsection{\large{Porch Swing Farms}}
+\descript{| ASP.NET, Azure, MySQL}\hfill \location{github.com/scgaskins/PorchSwingFarms}\\
+Tracks orders, schedules deliveries, and manages inventory for organic Farmers\\
+\sectionsep
+  
+
+\runsubsection{\large{Hendrix Arboretum (current)}}
+\descript{| ASP.NET, Azure, MySQL}\hfill \location{arboretum.hendrix.edu/}\\
+Catalogues over 1,000 trees found at Hendrix by species, with images and an integrated map\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Awards
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Awards}
+\runsubsection{\large{Murphy Fellow in Literature and Language}} \descript{Hendrix-Murphy Foundation | May 2020} \\
+Scholarship that has allowed me to study language and CS in Taiwan and France, and participate in a capstone creative writing course\\
+\sectionsep
+\ 
+\end{document}
