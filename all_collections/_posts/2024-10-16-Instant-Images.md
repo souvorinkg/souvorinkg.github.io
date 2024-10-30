@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One Question, One Answer"
+title: "Instant Images"
 date: 2024-10-9
 categories: [Hendrix Arboretum]
 ---
